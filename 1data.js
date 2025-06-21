@@ -8,26 +8,22 @@ function validateMeganPassword(text){
     let attempt = text.password.value
         if (attempt == ""){
             alert("Please enter password");
-            window.history.back();
         } else if (attempt != Passwords.megan){
             alert("Wrong password");
-            window.history.back();
             return false;
         } else {
-            return window.open("https://docs.google.com/spreadsheets/d/1EG6ha-06HuXU-teoL7Nbt3wkV6G-fB9JFWbjx6qqAsQ/edit?usp=sharing");
+            return window.open("https://docs.google.com/spreadsheets/d/1Iwzj8k8pwRUDeZ3BO8h4hPGgtrILr-5GzicZsgBuiTw/edit?usp=sharing");
         }
 }
 function validateCamiPassword(text){
     let attempt = text.password.value
         if (attempt == ""){
             alert("Please enter password");
-            window.history.back();
         } else if (attempt != Passwords.cami){
             alert("Wrong password");
-            window.history.back();
             return false;
         } else {
-            return window.open("https://docs.google.com/spreadsheets/d/1EG6ha-06HuXU-teoL7Nbt3wkV6G-fB9JFWbjx6qqAsQ/edit?usp=sharing");
+            return window.open("https://docs.google.com/spreadsheets/d/1yzEIsGuOOgCS4Wd_MIn7N3sOuFbcNGof17Fu5BBA_wU/edit?usp=sharing");
         }
 }
 
@@ -35,10 +31,8 @@ function validateAshleyPassword(text) {
         let attempt = text.password.value
         if (attempt == ""){
             alert("Please enter password");
-            window.history.back();
         } else if (attempt != Passwords.ashley){
             alert("Wrong password");
-            window.history.back();
             return false;
         } else {
             return window.open("https://docs.google.com/spreadsheets/d/1EG6ha-06HuXU-teoL7Nbt3wkV6G-fB9JFWbjx6qqAsQ/edit?usp=sharing");
