@@ -1,7 +1,7 @@
 var Passwords = {
-    ashley : "cheese",
-    megan : "SophiaGraceK1",
-    cami : "password"
+    ashley : "Psalms91",
+    megan : "Psalms91",
+    cami : "Psalms91"
 };
 
 function validateMeganPassword(text){
